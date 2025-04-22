@@ -5,11 +5,11 @@ QRB ROS Benchmark
 Overview
 --------
 
-`QRB ROS Benchmark <https://github.com/quic-qrb-ros/qrb_ros_benchmark>`__ is a ros package
+`QRB ROS Benchmark <https://github.com/qualcomm-qrb-ros/qrb_ros_benchmark>`__ is a ros package
 that extends the functionality of open source ``ros2_benchmark`` package.
 
-QRB ROS Benchmark supports testing the performance of ROS nodes are accelerated by `dmabuf_transport <https://github.com/quic-qrb-ros/qrb_ros_transport>`__ and
-`qrb_ros_transport <https://github.com/quic-qrb-ros/dmabuf_transport>`__ function.
+QRB ROS Benchmark supports testing the performance of ROS nodes are accelerated by `dmabuf_transport <https://github.com/qualcomm-qrb-ros/qrb_ros_transport>`__ and
+`qrb_ros_transport <https://github.com/qualcomm-qrb-ros/dmabuf_transport>`__ function.
 dmabuf_transport and qrb_ros_transport provides type adaption and intra process communication to optimize message formats and dramatically accelerate
 communication between participating nodes.
 
@@ -26,13 +26,13 @@ Currently, we only support use QCLINUX to build
     
 .. code:: bash
 
-    git clone https://github.com/quic-qrb-ros/lib_mem_dmabuf.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_imu.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_transport.git
-    git clone https://github.com/quic-qrb-ros/dmabuf_transport.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_tensor_list_msgs.git
+    git clone https://github.com/qualcomm-qrb-ros/lib_mem_dmabuf.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_imu.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_transport.git
+    git clone https://github.com/qualcomm-qrb-ros/dmabuf_transport.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_tensor_list_msgs.git
     git clone https://github.com/NVIDIA-ISAAC-ROS/ros2_benchmark.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_benchmark.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_benchmark.git
 
 4. Add dependencies in ``ros2_benhcmark/ros2_benchmark/CMakeLists.txt`` file
 
@@ -73,7 +73,7 @@ Currently, we only support use QCLINUX to build
 Run
 ---
 
-QRB ROS Benchmark supports running it directly from the command with test script, taking the `qrb_ros_imu <https://github.com/quic-qrb-ros/qrb_ros_imu>`__ becnhamk test as an example.
+QRB ROS Benchmark supports running it directly from the command with test script, taking the `qrb_ros_imu <https://github.com/qualcomm-qrb-ros/qrb_ros_imu>`__ becnhamk test as an example.
 
 1. Source this file to set up the environment on your device:
 
@@ -85,7 +85,7 @@ QRB ROS Benchmark supports running it directly from the command with test script
     (ssh) export ROS_DOMAIN_ID=xx
     (ssh) source /usr/bin/ros_setup.bash
 
-2. Use this command to run this package with test script `qrb_ros_imu_benchmark.py <https://github.com/quic-qrb-ros/qrb_ros_benchmark/scripts/qrb_ros_imu_benchmark.py>`__ file.
+2. Use this command to run this package with test script `qrb_ros_imu_benchmark.py <https://github.com/qualcomm-qrb-ros/qrb_ros_benchmark/scripts/qrb_ros_imu_benchmark.py>`__ file.
 
 .. code:: bash
 
@@ -94,7 +94,7 @@ QRB ROS Benchmark supports running it directly from the command with test script
 3. After the benchmark test is completed, the performance measurement results will be displayed on the terminal.
 And will generate a json file containing the test results and metadata (such as system information, benchmark configuration). the result json file path: /tmp/xxx.json.
 
-The benchmark test result example: `qrb_ros_imu_qcm6490.json <https://github.com/quic-qrb-ros/qrb_ros_benchmark/results/qrb_ros_imu_qcm6490.json>`__.
+The benchmark test result example: `qrb_ros_imu_qcm6490.json <https://github.com/qualcomm-qrb-ros/qrb_ros_benchmark/results/qrb_ros_imu_qcm6490.json>`__.
 
 .. code:: bash
 
@@ -124,7 +124,7 @@ The benchmark test result example: `qrb_ros_imu_qcm6490.json <https://github.com
     "ResourceMetrics.STDDEV_OVERALL_CPU_UTILIZATION": 4.361769437087449,
 
 
-4. How to customize a test scripts, the test script example: `qrb_ros_imu_benchmark.py <https://github.com/quic-qrb-ros/qrb_ros_benchmark/scripts/qrb_ros_imu_benchmark.py>`__.
+4. How to customize a test scripts, the test script example: `qrb_ros_imu_benchmark.py <https://github.com/qualcomm-qrb-ros/qrb_ros_benchmark/scripts/qrb_ros_imu_benchmark.py>`__.
 
 Config ``qrb_ros::imu::ImuComponent`` and ``qrb_ros::benchmark::QrbMonitorNode`` plugins.
 set msg type on QrbMonitorNode plugin by ``monitor_data_format``, and remappings topic name to create pipeline:

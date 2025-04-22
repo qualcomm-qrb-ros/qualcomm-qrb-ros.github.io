@@ -2,7 +2,7 @@
 
 ## Read online documents
 
-QRB ROS Documents: [quic-qrb-ros.github.io](https://quic-qrb-ros.github.io)
+QRB ROS Documents: [qualcomm-qrb-ros.github.io](https://qualcomm-qrb-ros.github.io)
 
 ## Build documents
 

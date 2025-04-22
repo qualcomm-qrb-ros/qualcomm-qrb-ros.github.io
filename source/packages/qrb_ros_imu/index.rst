@@ -34,9 +34,9 @@ QuickStart
          .. code:: bash
 
                 cd ${QRB_ROS_WS}/src
-                git clone https://github.com/quic-qrb-ros/lib_mem_dmabuf.git
-                git clone https://github.com/quic-qrb-ros/qrb_ros_imu.git
-                git clone https://github.com/quic-qrb-ros/qrb_ros_transport.git
+                git clone https://github.com/qualcomm-qrb-ros/lib_mem_dmabuf.git
+                git clone https://github.com/qualcomm-qrb-ros/qrb_ros_imu.git
+                git clone https://github.com/qualcomm-qrb-ros/qrb_ros_transport.git
 
       3. Build packages
 
@@ -64,7 +64,7 @@ QuickStart
                 mkdir -p <qirp_decompressed_workspace>/qirp-sdk/ros_ws
                 cd <qirp_decompressed_workspace>/qirp-sdk/ros_ws
 
-                git clone https://github.com/quic-qrb-ros/qrb_ros_imu.git
+                git clone https://github.com/qualcomm-qrb-ros/qrb_ros_imu.git
 
       3. Build source code with QCLINUX SDK
 

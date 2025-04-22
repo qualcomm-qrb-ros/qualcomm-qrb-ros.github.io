@@ -45,7 +45,7 @@ Currently, we only support use QCLINUX to build
     
 .. code:: bash
 
-    git clone https://github.com/quic-qrb-ros/libqrc.git
+    git clone https://github.com/qualcomm-qrb-ros/libqrc.git
 
 4. Build this project
 

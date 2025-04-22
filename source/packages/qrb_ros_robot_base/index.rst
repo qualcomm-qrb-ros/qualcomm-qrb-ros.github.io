@@ -5,7 +5,7 @@ QRB ROS Robot Base
 Overview
 --------
 QRB ROS Robot Base control package provide ROS interfaces  to control AMR robot base.
-It will init robot base, sync time with MCB, provide ROS interfaces for control robot base, publish robot base state with ROS topics and provide test tools for robot base control. All the data between MCB and RBx side through `QRC protocol <https://github.com/quic-qrb-ros/libqrc>`__.
+It will init robot base, sync time with MCB, provide ROS interfaces for control robot base, publish robot base state with ROS topics and provide test tools for robot base control. All the data between MCB and RBx side through `QRC protocol <https://github.com/qualcomm-qrb-ros/libqrc>`__.
 
 Quickstart
 ----------
@@ -27,9 +27,9 @@ Currently, we only support build with QCLINUX SDK.
    .. code:: bash
 
       cd <qirp_decompressed_workspace>/qirp-sdk/ros_ws
-      git clone https://github.com/quic-qrb-ros/libqrc.git
-      git clone https://github.com/quic-qrb-ros/qrb_ros_robot_base.git
-      git clone https://github.com/QUIC-QRB-ROS/qrb_ros_interfaces.git
+      git clone https://github.com/qualcomm-qrb-ros/libqrc.git
+      git clone https://github.com/qualcomm-qrb-ros/qrb_ros_robot_base.git
+      git clone https://github.com/qualcomm-qrb-ros/qrb_ros_interfaces.git
 
 4. Build projects
 

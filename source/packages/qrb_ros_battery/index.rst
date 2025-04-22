@@ -30,7 +30,7 @@ QuickStart
          .. code:: bash
 
                 cd ${QRB_ROS_WS}/src
-                git clone https://github.com/quic-qrb-ros/qrb_ros_battery.git
+                git clone https://github.com/qualcomm-qrb-ros/qrb_ros_battery.git
 
       3. Build packages
 
@@ -58,7 +58,7 @@ QuickStart
                 mkdir -p <qirp_decompressed_workspace>/qirp-sdk/ros_ws
                 cd <qirp_decompressed_workspace>/qirp-sdk/ros_ws
 
-                git clone https://github.com/quic-qrb-ros/qrb_ros_battery.git
+                git clone https://github.com/qualcomm-qrb-ros/qrb_ros_battery.git
 
       7. Build source code with QCLINUX SDK
 

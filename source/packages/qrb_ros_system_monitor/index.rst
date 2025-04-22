@@ -5,7 +5,7 @@ QRB ROS System Monitor
 Overview
 --------
 
-`QRB ROS System Monitor <https://github.com/quic-qrb-ros/qrb_ros_system_monitor>`__ is a ROS package to publish system informations.
+`QRB ROS System Monitor <https://github.com/qualcomm-qrb-ros/qrb_ros_system_monitor>`__ is a ROS package to publish system informations.
 
 Main features:
 
@@ -42,7 +42,7 @@ Currently, we only support build with QCLINUX SDK.
 
    .. code:: bash
 
-      git clone https://github.com/quic-qrb-ros/qrb_ros_system_monitor.git
+      git clone https://github.com/qualcomm-qrb-ros/qrb_ros_system_monitor.git
 
 4. Build projects
 

@@ -14,7 +14,7 @@ here comes the usage scenario of qrb_ros_nn_inference:
   :align: left
   :alt: aha? why no image? try reflash your website.
 
-.. note:: TensorList is a custom ROS2 message type, more detail in `qrb_ros_tensor_list_msgs <https://github.com/quic-qrb-ros/qrb_ros_tensor_list_msgs>`__.
+.. note:: TensorList is a custom ROS2 message type, more detail in `qrb_ros_tensor_list_msgs <https://github.com/qualcomm-qrb-ros/qrb_ros_tensor_list_msgs>`__.
 
 qrb_ros_nn_inference is only for executing AI model inference, user should prepare a pre-process node and post-process node.
 pre-process node is for publishing the input data for model inference.
@@ -59,8 +59,8 @@ Construct ROS pipeline
   .. code:: bash
 
       cd <qirp_decompressed_workspace>/qirp-sdk/ros_ws && \
-      git clone https://github.com/quic-qrb-ros/qrb_ros_tensor_list_msgs.git && \
-      git clone https://github.com/quic-qrb-ros/qrb_ros_nn_inference.git
+      git clone https://github.com/qualcomm-qrb-ros/qrb_ros_tensor_list_msgs.git && \
+      git clone https://github.com/qualcomm-qrb-ros/qrb_ros_nn_inference.git
 
 3. Dynamically add inference node into the ros2 component container in your launch file
 
