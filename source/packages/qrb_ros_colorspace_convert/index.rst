@@ -36,9 +36,9 @@ Currently, we only support use QCLINUX to build
     
 .. code:: bash
 
-    git clone https://github.com/quic-qrb-ros/lib_mem_dmabuf.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_transport.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_colorspace_convert.git
+    git clone https://github.com/qualcomm-qrb-ros/lib_mem_dmabuf.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_transport.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_colorspace_convert.git
 
 4. Build this project
 

@@ -49,9 +49,9 @@ Currently, we only support NV12 color space format downscale that based on Qualc
     
 .. code:: bash
 
-    git clone https://github.com/quic-qrb-ros/lib_mem_dmabuf.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_transport.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_image_resize.git
+    git clone https://github.com/qualcomm-qrb-ros/lib_mem_dmabuf.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_transport.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_image_resize.git
 
 4. Build this project
 

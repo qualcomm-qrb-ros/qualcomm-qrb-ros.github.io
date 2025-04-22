@@ -26,8 +26,8 @@ Currently, we only support use QCLINUX to build
 
 .. code:: bash
 
-    git clone https://github.com/quic-qrb-ros/qrb_ros_audio_common.git
-    git clone https://github.com/quic-qrb-ros/qrb_ros_interfaces.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_audio_common.git
+    git clone https://github.com/qualcomm-qrb-ros/qrb_ros_interfaces.git
 
 4. Build this project
 

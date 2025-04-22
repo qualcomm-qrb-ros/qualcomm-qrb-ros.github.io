@@ -2,7 +2,7 @@
 |package_name|
 ==============
 
-`QRB ROS System Monitor <https://github.com/quic-qrb-ros/qrb_ros_system_monitor>`__ is a ROS package to publish system informations.
+`QRB ROS System Monitor <https://github.com/qualcomm-qrb-ros/qrb_ros_system_monitor>`__ is a ROS package to publish system informations.
 
 API
 ---

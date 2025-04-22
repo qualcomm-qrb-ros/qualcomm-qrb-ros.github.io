@@ -6,7 +6,7 @@ Overview
 --------
 
 `QRB ROS
-Transport <https://github.com/quic-qrb-ros/qrb_ros_transport>`__ is
+Transport <https://github.com/qualcomm-qrb-ros/qrb_ros_transport>`__ is
 designed for hardware-acceleration friendly transporting of messages on
 Qualcomm robotics platforms. It uses type adaption to make message data
 zero-copy between different ROS nodes, and different hardwares. It
@@ -19,7 +19,7 @@ directly to the user requested type, and/or using that type in
 intra-process communication without ever converting it.
 
 qrb_ros_transport is based on
-`lib_mem_dmabuf <https://github.com/quic-qrb-ros/lib_mem_dmabuf>`__, it
+`lib_mem_dmabuf <https://github.com/qualcomm-qrb-ros/lib_mem_dmabuf>`__, it
 is open sourced and apply to all platforms based on Linux.
 
 dmabuf_transport is a zero-copy transport implementation for all platforms
@@ -53,9 +53,9 @@ Currently, we only support build with QCLINUX SDK.
    .. code:: bash
 
       cd <qirp_decompressed_workspace>/qirp-sdk/ros_ws
-      git clone https://github.com/quic-qrb-ros/lib_mem_dmabuf.git
-      git clone https://github.com/quic-qrb-ros/qrb_ros_imu.git
-      git clone https://github.com/quic-qrb-ros/qrb_ros_transport.git
+      git clone https://github.com/qualcomm-qrb-ros/lib_mem_dmabuf.git
+      git clone https://github.com/qualcomm-qrb-ros/qrb_ros_imu.git
+      git clone https://github.com/qualcomm-qrb-ros/qrb_ros_transport.git
 
 4. Build projects
 
@@ -94,7 +94,7 @@ Resources
    Linux kernel subsystem for sharing buffers for hardware (DMA) access
    across multiple device drivers and subsystems, and for synchronizing
    asynchronous hardware access
--  `lib_mem_dmabuf <https://github.com/quic-qrb-ros/lib_mem_dmabuf>`__:
+-  `lib_mem_dmabuf <https://github.com/qualcomm-qrb-ros/lib_mem_dmabuf>`__:
    Library for access and interact with Linux DMA heaps.
 
 Updates

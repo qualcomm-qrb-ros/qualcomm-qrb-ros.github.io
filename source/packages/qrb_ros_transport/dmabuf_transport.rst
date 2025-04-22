@@ -8,7 +8,7 @@ Linux dma-buf file descriptor.
 Overview
 --------
 
-`Dmabuf Transport <https://github.com/quic-qrb-ros/dmabuf_transport>`__
+`Dmabuf Transport <https://github.com/qualcomm-qrb-ros/dmabuf_transport>`__
 provides a way to share data between different hardware accelerators and
 different ROS nodes with zero-copy.
 
@@ -54,7 +54,7 @@ QuickStart
       // publish message
       pub_->publish(std::move(msg));
 
--  Check `test <https://github.com/quic-qrb-ros/dmabuf_transport/tree/main/test>`__ directory to find more details.
+-  Check `test <https://github.com/qualcomm-qrb-ros/dmabuf_transport/tree/main/test>`__ directory to find more details.
 
 
 Supported Types
@@ -68,9 +68,9 @@ The following table lists current supported types:
     * - Dmabuf Transport Type
       - ROS Interface
 
-    * - `dmabuf_transport::type::Image <https://github.com/quic-qrb-ros/dmabuf_transport/tree/main/include/dmabuf_transport/type/image.hpp>`__
+    * - `dmabuf_transport::type::Image <https://github.com/qualcomm-qrb-ros/dmabuf_transport/tree/main/include/dmabuf_transport/type/image.hpp>`__
       - `sensor_msgs::msg::Image <https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/Image.msg>`__
-    * - `dmabuf_transport::type::PointCloud2 <https://github.com/quic-qrb-ros/dmabuf_transport/tree/main/include/dmabuf_transport/type/point_cloud2.hpp>`__
+    * - `dmabuf_transport::type::PointCloud2 <https://github.com/qualcomm-qrb-ros/dmabuf_transport/tree/main/include/dmabuf_transport/type/point_cloud2.hpp>`__
       - `sensor_msgs::msg::PointCloud2 <https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/PointCloud2.msg>`__
 
 

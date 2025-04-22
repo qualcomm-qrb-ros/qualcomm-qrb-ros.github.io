@@ -50,9 +50,9 @@ The following table lists current supported types:
     * - QRB ROS Transport Type
       - ROS Interface
 
-    * - `qrb_ros::transport::type::Image <https://github.com/quic-qrb-ros/qrb_ros_transport/tree/main//include/qrb_ros_transport/type/image.hpp>`__
+    * - `qrb_ros::transport::type::Image <https://github.com/qualcomm-qrb-ros/qrb_ros_transport/tree/main//include/qrb_ros_transport/type/image.hpp>`__
       - `sensor_msgs::msg::Image <https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/Image.msg>`__
-    * - `qrb_ros::transport::type::Imu <https://github.com/quic-qrb-ros/qrb_ros_transport/tree/main//include/qrb_ros_transport/type/imu.hpp>`__
+    * - `qrb_ros::transport::type::Imu <https://github.com/qualcomm-qrb-ros/qrb_ros_transport/tree/main//include/qrb_ros_transport/type/imu.hpp>`__
       - `sensor_msgs::msg::Imu <https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/Imu.msg>`__
 
 .. |package_name| replace:: ``qrb_ros_transport``
