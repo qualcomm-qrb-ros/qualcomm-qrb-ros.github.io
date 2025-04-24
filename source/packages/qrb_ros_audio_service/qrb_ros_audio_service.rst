@@ -9,10 +9,6 @@ It is the entry point for ROS to provide audio capabilities.
 
 The communication mode for Playback and Record:
 
-.. image:: ../../resources/qrb_ros_docs/packages/qrb_ros_audio_service/playback_record_communication_mode.png
-  :align: center
-  :alt: aha? why no image? try reflash your website.
-
 ``AudioServer`` is a ROS service server which provide interface for client.
 The interface is `qrb_ros_audio_serivce_msgs <https://github.qualcomm.com/QUIC-QRB-ROS/qrb_ros_interfaces/tree/main/qrb_ros_audio_common_msgs>`_.
 
