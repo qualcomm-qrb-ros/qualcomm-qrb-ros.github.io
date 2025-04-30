@@ -11,7 +11,7 @@ implementations familiar to robotics developers.
 
 Platform setup
 -------------------
-This information provides instructions on how to download and use the robotics prebuilt package, allowing you to quickly set up the software and hardware environment to get an out-of-the-box experience.
+QRB ROS packages support following ways to development:
 
 .. toctree::
    :maxdepth: 1
