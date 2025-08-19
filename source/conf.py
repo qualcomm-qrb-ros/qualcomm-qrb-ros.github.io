@@ -75,3 +75,10 @@ versions = [branch.name for branch in repo.branches]
 for version in versions:
     html_context['versions'].append(version)
     '''
+
+rst_prolog = """
+.. warning::
+
+   This document is outdated and may contain obsolete information.
+   Please refer to the repositories README on : `Qualcomm QRB ROS GitHub <https://github.com/qualcomm-qrb-ros>`_.
+"""
